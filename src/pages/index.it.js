@@ -8,12 +8,24 @@ import React from 'react'
 import Link from 'gatsby-link'
 // grid system
 import {Container, Row, Col, Visible, Hidden} from 'react-grid-system'
-// subheader component
+// components
 import SubHeader from '../components/SubHeader'
+import Jumbotron from '../components/Jumbotron'
 
 const IndexPage = () => (
   <div>
-    <SubHeader w1={"wasup"} w2={"wasup2"}></SubHeader>
+    <SubHeader
+      w1={"COSA"} w2={"PERCHÉ"}
+      w3={"CHI"}  w4={"QUANDO"}
+      w5={"DOVE"}
+      >
+    </SubHeader>
+
+    <Jumbotron>
+    </Jumbotron>
+
+    
+
   </div>
 )
 

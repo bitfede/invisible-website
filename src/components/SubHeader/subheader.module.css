@@ -1,6 +1,9 @@
 .divwrapper {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .invisiblemain {
@@ -8,8 +11,14 @@
   padding: 1rem;
   font-size: 2rem;
   margin: 0;
+  color: #0081C2;
+}
+
+.subheadlinkwrapper {
+  margin-top: 0.8rem;
 }
 
 .subheadlink {
-  padding: 1rem;
+  margin: 1rem;
+  text-decoration: none;
 }
