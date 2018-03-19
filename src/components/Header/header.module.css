@@ -1,0 +1,14 @@
+.genericheaderdiv {
+  background: #0081C2;
+  marginBottom: '1.45rem';
+}
+
+.headerdiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerlogo {
+  font-size: 1em;
+  font-weight: lighter;
+}

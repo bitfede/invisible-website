@@ -1,32 +1,38 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import styles from "./header.module.css"
+console.log(styles)
+
 const Header = () => (
   <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
+    className={styles.genericheaderdiv}
   >
+
     <div
       style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        margin: '0',
+        padding: '0.3rem 1rem',
       }}
+      className={styles.headerdiv}
     >
-      <h1 style={{ margin: 0 }}>
+      <h3 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
             color: 'white',
             textDecoration: 'none',
           }}
+          className={styles.headerlogo}
         >
-          Gatsby
+          Techlit
         </Link>
-      </h1>
+      </h3>
+      <div id="rightupperhead">
+        FAQ
+      </div>
     </div>
+
   </div>
 )
 
