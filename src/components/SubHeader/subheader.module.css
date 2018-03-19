@@ -22,3 +22,12 @@
   margin: 1rem;
   text-decoration: none;
 }
+
+.mobilerightbtn {
+  margin-right: 1.6rem;
+}
+
+.mobilemenu {
+  fill: #0081C2;
+  margin-top: 0.7rem;
+}
