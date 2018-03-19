@@ -18,7 +18,7 @@ const Header = () => (
     >
       <h3 style={{ margin: 0 }}>
         <Link
-          to="/"
+          to="/it"
           style={{
             color: 'white',
             textDecoration: 'none',
@@ -29,7 +29,36 @@ const Header = () => (
         </Link>
       </h3>
       <div id="rightupperhead">
-        FAQ
+        <Link
+          to="/en"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+          className={styles.rightupperlinks}
+        >
+          FAQ
+        </Link>
+        <Link
+          to="/it"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+          className={styles.rightupperlinks}
+        >
+          ITA
+        </Link>
+        <Link
+          to="/en"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+          className={styles.rightupperlinks}
+        >
+          ENG
+        </Link>
       </div>
     </div>
 
