@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import styles from "./header.module.css"
-console.log(styles)
+// console.log(styles) //DEBUGG
 
 const Header = () => (
   <div

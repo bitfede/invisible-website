@@ -1,0 +1,15 @@
+.divwrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.invisiblemain {
+  /* margin-left: 1rem; */
+  padding: 1rem;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.subheadlink {
+  padding: 1rem;
+}
