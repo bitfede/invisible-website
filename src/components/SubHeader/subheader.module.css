@@ -1,3 +1,4 @@
+
 .divwrapper {
   display: flex;
   flex-direction: row;
@@ -30,4 +31,121 @@
 .mobilemenu {
   fill: #0081C2;
   margin-top: 0.7rem;
+}
+
+.sidemenu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: yellow;
+  height: 100%;
+  width: 0%;
+}
+
+.sidemenuopen {
+  position: fixed;
+  z-index: 1000;
+  right: 0;
+  top: 0;
+  background-color: yellow;
+  height: 100%;
+  animation: opensidemenu 3s;
+  animation-fill-mode: forwards;
+}
+
+.sidemenuclose {
+  position: fixed;
+  z-index: 1000;
+  right: 0;
+  top: 0;
+  background-color: yellow;
+  height: 100%;
+  animation: closesidemenu 3s;
+  animation-fill-mode: forwards;
+}
+
+.sfondosidenav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: black;
+  height: 100%;
+  width: 0%;
+}
+
+.sfondosidenavopen {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: black;
+  height: 100%;
+  width: 0%;
+  animation: opensidesfondo 3s;
+  animation-fill-mode: forwards;
+}
+
+.sfondosidenavclose {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: black;
+  height: 100%;
+  width: 0%;
+  animation: closesidesfondo 3s;
+  animation-fill-mode: forwards;
+}
+
+/*  ANIMATIONS */
+
+@keyframes opensidemenu {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes closesidemenu {
+  0% {
+    width: 50%;
+    opacity: 1;
+  }
+
+  100% {
+    width: 0%;
+    opacity: 0;
+  }
+}
+
+@keyframes opensidesfondo {
+  0% {
+    width: 100%;
+    left: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 100%;
+    left: 0;
+    opacity: 0.5;
+  }
+}
+
+@keyframes closesidesfondo {
+  0% {
+    width: 100%;
+    opacity: 0.5;
+  }
+
+  50% {
+    width: 100%;
+    opacity: 0;
+  }
+
+  100% {
+    width: 0%;
+    opacity: 0;
+  }
 }

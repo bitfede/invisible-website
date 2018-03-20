@@ -13,7 +13,6 @@ class Jumbotron extends React.Component{
       return (
         <div className={styles.maincontainer}>
           <img src={pic} />
-          <h1 className={styles.maintitle}>INVISIBLE GLASS</h1>
         </div>
       )
     }
