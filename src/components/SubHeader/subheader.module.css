@@ -37,7 +37,7 @@
   position: fixed;
   right: 0;
   top: 0;
-  background-color: yellow;
+  background-color: white;
   height: 100%;
   width: 0%;
 }
@@ -47,7 +47,7 @@
   z-index: 1000;
   right: 0;
   top: 0;
-  background-color: yellow;
+  background-color: white;
   height: 100%;
   animation: opensidemenu 3s;
   animation-fill-mode: forwards;
@@ -58,7 +58,7 @@
   z-index: 1000;
   right: 0;
   top: 0;
-  background-color: yellow;
+  background-color: white;
   height: 100%;
   animation: closesidemenu 3s;
   animation-fill-mode: forwards;
@@ -95,7 +95,41 @@
   animation-fill-mode: forwards;
 }
 
+.bluetechlitmedium {
+  color: #43B6E7;
+}
+
+.bluetechlitstrong {
+  color: #0081C2;
+}
+
+.mobileNavItem {
+  margin-top: 1.5rem;
+}
+
+.mobileNavItem:active {
+  margin-top: 1.5rem;
+  color: yellow;
+  animation: pressopaque 3s;
+  animation-iteration-count: 3;
+  animation-timing-function: ease-in;
+}
+
 /*  ANIMATIONS */
+
+@keyframes pressopaque {
+  0% {
+    opacity: 1;
+    color: #0081C2;
+    font-weight: 900;
+  }
+
+  100% {
+    opacity: 0;
+    color: red;
+    font-weight: 100;
+  }
+}
 
 @keyframes opensidemenu {
   0% {

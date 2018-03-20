@@ -14,6 +14,13 @@ class SubHeader extends React.Component{
         }
   }
 
+  _mobileMenuClick(proppi) {
+    console.log("-###", proppi)
+    this.setState((prevstate) => {
+      return {sideNavOpen: "close"}
+    })
+  }
+
   _openSideNav() {
     this.setState((prevstate) => {
       return {sideNavOpen: "open"}
@@ -44,7 +51,7 @@ class SubHeader extends React.Component{
     return (
     <div className={styles.divwrapper} >
       <Hidden lg xl>
-        <div onClick={ () => this._closeSideNav()} className={sfondoclass}>YO</div>
+        <div onClick={ () => this._closeSideNav()} className={sfondoclass}></div>
       </Hidden>
       <span><h2 className={styles.invisiblemain}>Invisible</h2></span>
         <Hidden xs sm md>
@@ -64,7 +71,16 @@ class SubHeader extends React.Component{
         </Hidden>
 
         <Hidden lg xl>
-          <div className={menuclass}>YA</div>
+          <div className={menuclass}>
+            <h3 className={styles.bluetechlitstrong} style={{width: '1000px', marginLeft: '1.5rem', marginTop: '1rem'}}>MENU</h3>
+            <ul className={styles.bluetechlitmedium} style={{width: '1000px', listStyleType: 'none'}}>
+              <li className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w1)}>{this.props.w1}</li>
+              <li className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w2)}>{this.props.w2}</li>
+              <li className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w3)}>{this.props.w3}</li>
+              <li className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w4)}>{this.props.w4}</li>
+              <li className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w5)}>{this.props.w5}</li>
+            </ul>
+          </div>
         </Hidden>
     </div>
   )
