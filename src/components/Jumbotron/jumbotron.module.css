@@ -20,6 +20,14 @@
   animation-timing-function: ease-in;
 }
 
+/* MEDIA QUERY */
+
+@media (min-width: 800px) {
+  .headlinemain {
+    font-size: 4rem;
+  }
+}
+
 /* ANIMATIONS */
 
 @keyframes headlineappear {

@@ -1,0 +1,26 @@
+
+.titleandsubcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titolo {
+  color: #0081C2;
+}
+
+.sottotitolo {
+  color: #43B6E7;
+  font-weight: 300;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .titolo {
+    color: #0081C2;
+    font-size: 4rem;
+  }
+}
