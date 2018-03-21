@@ -12,7 +12,9 @@ class Jumbotron extends React.Component{
     render() {
       return (
         <div className={styles.maincontainer}>
-          <img src={pic} />
+          <img className={styles.jumboimage} src={pic} />
+          <h1 className={styles.headlinemain}
+          >INVISIBLE GLASS</h1>
         </div>
       )
     }
