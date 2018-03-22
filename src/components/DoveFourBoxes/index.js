@@ -14,7 +14,7 @@ class DoveFourBoxes extends React.Component {
   render() {
     return (
       <div>
-        <Container style={{marginTop: '5%'}}>
+        <Container style={{marginTop: '5%', marginBottom: '10%'}}>
           <Row>
             <Col sm={12} md={6} style={{padding: 0}}>
               <div className={styles.backgroffice}>
