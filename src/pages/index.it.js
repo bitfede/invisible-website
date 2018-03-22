@@ -14,6 +14,7 @@ import Jumbotron from '../components/Jumbotron'
 import SezioneCosa from '../components/SezioneCosa'
 import TitleAndSubtitle from '../components/TitleAndSubtitle'
 import VisualTextBlocks from '../components/VisualTextBlocks'
+import DoveFourBoxes from '../components/DoveFourBoxes'
 
 const IndexPage = () => (
   <div>
@@ -42,6 +43,9 @@ const IndexPage = () => (
       title={"Dove si applica?"}
       subtitle={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio"}
     />
+
+    <DoveFourBoxes>
+    </DoveFourBoxes>
 
 
   </div>
