@@ -1,0 +1,29 @@
+
+.leftimg {
+  margin-top: 1rem;
+}
+
+.leftcontainer {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightcontainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rightimg {
+  width: 40%;
+  margin-top: 3.2rem;
+}
+
+.rightpara {
+  text-align: center;
+}
