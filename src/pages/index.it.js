@@ -13,6 +13,7 @@ import SubHeader from '../components/SubHeader'
 import Jumbotron from '../components/Jumbotron'
 import SezioneCosa from '../components/SezioneCosa'
 import TitleAndSubtitle from '../components/TitleAndSubtitle'
+import VisualTextBlocks from '../components/VisualTextBlocks'
 
 const IndexPage = () => (
   <div>
@@ -31,6 +32,8 @@ const IndexPage = () => (
     <SezioneCosa>
     </SezioneCosa>
 
+    <VisualTextBlocks>
+    </VisualTextBlocks>
 
   </div>
 )
