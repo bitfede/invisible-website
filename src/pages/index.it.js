@@ -27,13 +27,22 @@ const IndexPage = () => (
     <Jumbotron>
     </Jumbotron>
 
-    <TitleAndSubtitle />
+    <TitleAndSubtitle
+      title={"Cos'é Invisible?"}
+      subtitle={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio"}
+    />
 
     <SezioneCosa>
     </SezioneCosa>
 
     <VisualTextBlocks>
     </VisualTextBlocks>
+
+    <TitleAndSubtitle
+      title={"Dove si applica?"}
+      subtitle={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio"}
+    />
+
 
   </div>
 )

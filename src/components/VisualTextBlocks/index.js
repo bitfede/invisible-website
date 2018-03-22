@@ -15,7 +15,7 @@ class VisualTextBlocks extends React.Component {
   render() {
     return (
       <div>
-        <Container style={{backgroundColor: "#43B6E7", marginTop: '10%'}} fluid>
+        <Container style={{backgroundColor: "#43B6E7", marginTop: '10%', marginBottom: '10%'}} fluid>
           <Row>
             <Col style={{paddingRight: 0, paddingLeft: 0}} sm={12} md={6}>
               <div className={styles.wrapperleft}>

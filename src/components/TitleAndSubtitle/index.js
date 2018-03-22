@@ -10,9 +10,9 @@ class TitleAndSubtitle extends React.Component {
   render() {
     return (
       <div className={styles.titleandsubcontainer}>
-        <h1 className={styles.titolo}>Cos'é Invisible?</h1>
+        <h1 className={styles.titolo}>{this.props.title}</h1>
         <h3 className={styles.sottotitolo}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio
+          {this.props.subtitle}
         </h3>
       </div>
     )
