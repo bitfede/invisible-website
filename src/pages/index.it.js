@@ -57,8 +57,13 @@ const IndexPage = () => (
     <ThreeCircles>
     </ThreeCircles>
 
-      <SezioneChi>
-      </SezioneChi>
+    <SezioneChi>
+    </SezioneChi>
+
+    <TitleAndSubtitle
+      title={"Perchè Techlit?"}
+      subtitle={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio"}
+    />
 
   </div>
 )
