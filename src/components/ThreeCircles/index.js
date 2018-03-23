@@ -33,7 +33,8 @@ class ThreeCircles extends React.Component {
             </Col>
             <Col sm={12} md={4}>
               <div className={styles.boxdiv}>
-                <svg className={styles.icon3} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M295.973 160H180.572L215.19 30.184C219.25 14.956 207.756 0 192 0H56C43.971 0 33.8 8.905 32.211 20.828l-31.996 240C-1.704 275.217 9.504 288 24.004 288h118.701L96.646 482.466C93.05 497.649 104.659 512 119.992 512c8.35 0 16.376-4.374 20.778-11.978l175.973-303.997c9.244-15.967-2.288-36.025-20.77-36.025z"/></svg>
+                <svg className={styles.icon3}
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z"/></svg>
                 <h1 className={styles.title}>Title</h1>
                 <h3 className={styles.subtitle}>Put a very nice subtitle here</h3>
               </div>

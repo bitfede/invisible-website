@@ -16,6 +16,7 @@ import TitleAndSubtitle from '../components/TitleAndSubtitle'
 import VisualTextBlocks from '../components/VisualTextBlocks'
 import DoveFourBoxes from '../components/DoveFourBoxes'
 import ThreeCircles from '../components/ThreeCircles'
+import SezioneChi from '../components/SezioneChi'
 
 const IndexPage = () => (
   <div>
@@ -55,6 +56,9 @@ const IndexPage = () => (
 
     <ThreeCircles>
     </ThreeCircles>
+
+      <SezioneChi>
+      </SezioneChi>
 
   </div>
 )
