@@ -2,6 +2,10 @@
   background-color: rgb(67, 182, 231);
 }
 
+.maincontainer {
+  padding-bottom: 5%;
+}
+
 .maintitle {
   padding-top: 9%;
   padding-bottom: 5%;
@@ -9,11 +13,22 @@
   text-align: center;
 }
 
+@media (min-width: 800px) {
+  .maintitle {
+    padding-top: 9%;
+    padding-bottom: 5%;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+  }
+}
+
 .colcontent {
   text-align: center;
 }
 
 .icona {
+  padding-top: 5%;
   width: 50%;
   fill: white
 }
