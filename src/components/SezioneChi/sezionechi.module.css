@@ -1,3 +1,19 @@
-.globalcontainer {
+.backgroundblue {
   background-color: rgb(67, 182, 231);
+}
+
+.maintitle {
+  padding-top: 9%;
+  padding-bottom: 5%;
+  color: white;
+  text-align: center;
+}
+
+.colcontent {
+  text-align: center;
+}
+
+.icona {
+  width: 50%;
+  fill: white
 }
