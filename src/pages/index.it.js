@@ -15,6 +15,7 @@ import SezioneCosa from '../components/SezioneCosa'
 import TitleAndSubtitle from '../components/TitleAndSubtitle'
 import VisualTextBlocks from '../components/VisualTextBlocks'
 import DoveFourBoxes from '../components/DoveFourBoxes'
+import ThreeCircles from '../components/ThreeCircles'
 
 const IndexPage = () => (
   <div>
@@ -51,6 +52,9 @@ const IndexPage = () => (
       title={"Quando usare Invisible?"}
       subtitle={""}
     />
+
+    <ThreeCircles>
+    </ThreeCircles>
 
   </div>
 )

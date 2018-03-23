@@ -1,0 +1,33 @@
+.boxdiv {
+  background-color: rgb(67, 182, 231);
+  text-align: center;
+  border-radius: 50px;
+}
+
+.icon1 {
+  width: 10%;
+  padding-top: 10%;
+  fill: white !important;
+}
+
+.icon2 {
+  width: 20%;
+  padding-top: 10%;
+  fill: white !important;
+}
+
+.icon3 {
+  width: 10%;
+  padding-top: 10%;
+  fill: white !important;
+}
+
+.subtitle {
+  padding-bottom: 10%;
+  color: white;
+}
+
+.title {
+  padding-top: 10%;
+  color: white;
+}
