@@ -18,6 +18,7 @@ import DoveFourBoxes from '../components/DoveFourBoxes'
 import ThreeCircles from '../components/ThreeCircles'
 import SezioneChi from '../components/SezioneChi'
 import SezionePerche from '../components/SezionePerche'
+import ContactForm from '../components/ContactForm'
 
 const IndexPage = () => (
   <div>
@@ -68,6 +69,14 @@ const IndexPage = () => (
 
     <SezionePerche>
     </SezionePerche>
+
+    <TitleAndSubtitle
+      title={"Contattaci"}
+      subtitle={"Compila i campi qui sotto ed entra in contatto con il team di invisible"}
+    />
+
+    <ContactForm>
+    </ContactForm>
 
   </div>
 )
