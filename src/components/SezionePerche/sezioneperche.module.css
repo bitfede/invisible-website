@@ -1,0 +1,27 @@
+.perchedivmain {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.textdivv {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.divpicone {
+  background-image: url('./professional.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+.divpictwo {
+  background-image: url('./hockey.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+.divpicthree {
+  background-image: url('./rocket.jpg');
+  background-size: cover;
+  height: 400px;
+}

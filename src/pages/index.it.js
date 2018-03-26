@@ -17,6 +17,7 @@ import VisualTextBlocks from '../components/VisualTextBlocks'
 import DoveFourBoxes from '../components/DoveFourBoxes'
 import ThreeCircles from '../components/ThreeCircles'
 import SezioneChi from '../components/SezioneChi'
+import SezionePerche from '../components/SezionePerche'
 
 const IndexPage = () => (
   <div>
@@ -64,6 +65,9 @@ const IndexPage = () => (
       title={"Perchè Techlit?"}
       subtitle={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio"}
     />
+
+    <SezionePerche>
+    </SezionePerche>
 
   </div>
 )
