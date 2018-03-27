@@ -1,0 +1,21 @@
+.frontwrapper {
+  margin-top: 5%;
+}
+
+.flagwrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flagwrapper:hover {
+  background-color: #BFE1EC;
+  border-radius: 50px;
+}
+
+.flagimg {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
