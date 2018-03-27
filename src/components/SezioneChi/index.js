@@ -13,7 +13,7 @@ class SezioneChi extends React.Component {
 
   render() {
     return (
-      <div className={styles.backgroundblue}>
+      <div id="chi" className={styles.backgroundblue}>
         <h1 className={styles.maintitle}>Chi ci ha scelto</h1>
         <Container className={styles.maincontainer}>
           <Row>

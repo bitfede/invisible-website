@@ -17,6 +17,7 @@
 
 .subheadlinkwrapper {
   margin-top: 0.8rem;
+  color:
 }
 
 .subheadlink {
@@ -96,6 +97,8 @@
 }
 
 .bluetechlitmedium {
+  display: flex;
+  flex-direction: column;
   color: #43B6E7;
 }
 
@@ -104,7 +107,9 @@
 }
 
 .mobileNavItem {
+  text-decoration: none;
   margin-top: 1.5rem;
+  color: #43B6E7;
 }
 
 .mobileNavItem:active {

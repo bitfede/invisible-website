@@ -27,7 +27,7 @@ const IndexPage = () => (
     <SubHeader
       w1={"COSA"} w2={"PERCHÉ"}
       w3={"CHI"}  w4={"QUANDO"}
-      w5={"DOVE"}
+      w5={"DOVE"} w6={"CONTATTACI"}
       >
     </SubHeader>
 
@@ -35,6 +35,7 @@ const IndexPage = () => (
     </Jumbotron>
 
     <TitleAndSubtitle
+      w={"cosa"}
       title={"Cos'é Invisible?"}
       subtitle={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio"}
     />
@@ -46,6 +47,7 @@ const IndexPage = () => (
     </VisualTextBlocks>
 
     <TitleAndSubtitle
+      w={"dove"}
       title={"Dove si applica?"}
       subtitle={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio"}
     />
@@ -54,6 +56,7 @@ const IndexPage = () => (
     </DoveFourBoxes>
 
     <TitleAndSubtitle
+      w={"quando"}
       title={"Quando usare Invisible?"}
       subtitle={""}
     />
@@ -65,6 +68,7 @@ const IndexPage = () => (
     </SezioneChi>
 
     <TitleAndSubtitle
+      w={"perche"}
       title={"Perchè Techlit?"}
       subtitle={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio"}
     />
@@ -73,6 +77,7 @@ const IndexPage = () => (
     </SezionePerche>
 
     <TitleAndSubtitle
+      w={"contattaci"}
       title={"Contattaci"}
       subtitle={"Compila i campi qui sotto ed entra in contatto con il team di invisible"}
     />
