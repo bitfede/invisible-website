@@ -5,7 +5,6 @@ import styles from './titleandsubtitle.module.css'
 class TitleAndSubtitle extends React.Component {
   constructor(props) {
     super(props)
-    console.log("DIOCANE", props)
   }
 
   render() {
