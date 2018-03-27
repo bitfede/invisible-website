@@ -1,0 +1,47 @@
+.footerwrapper {
+  background-color: #636e72;
+  margin-bottom: 0px;
+  margin-top: 8%;
+  overflow: hidden;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer2 {
+  background-color: #2d3436;
+}
+
+.aboutUs {
+  margin-left: 5%;
+  margin-top: 5%;
+  color: white;
+  width:50%;
+}
+
+.logoandcontacts {
+  width: 70%;
+  margin-top: 5%;
+  margin-right: 1%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.mailinogiu {
+  text-decoration: none;
+  color: white;
+}
+
+.copyrighttext {
+  font-size: 0.8rem;
+  color: white;
+  margin-bottom: 0px;
+  padding: 2%;
+  padding-left: 5%;
+}

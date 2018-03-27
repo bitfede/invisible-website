@@ -14,7 +14,9 @@ class ContattaciForm extends React.Component {
     this.state = {
       email: '',
       name: '',
-      msg: ''
+      msg: '',
+      statusRes: '',
+      statusMsg: ''
     }
 
     this.handleChange = this.handleChange.bind(this)
@@ -41,6 +43,11 @@ class ContattaciForm extends React.Component {
     }
     addToMailchimp(email, listFields)
     .then(data => {
+      this.setState({
+        statusMsg: data.msg,
+        statusRes: data.result
+      })
+      alert(this.state.statusRes + ": " + this.state.statusMsg)
       console.log(data)
     })
     .catch(() => {
@@ -63,7 +70,7 @@ class ContattaciForm extends React.Component {
                 type="text"
                 value={this.state.email}
                 onChange={this.handleChange}
-                placeholder="esempio@esempio.com"
+                placeholder="email@esempio.com"
               />
             </label>
             </Col>
@@ -78,7 +85,7 @@ class ContattaciForm extends React.Component {
                 type="text"
                 value={this.state.name}
                 onChange={this.handleChange}
-                placeholder="Tizio Caio"
+                placeholder="Nome Cognome"
               />
             </label>
             </Col>
@@ -99,7 +106,6 @@ class ContattaciForm extends React.Component {
             </Col>
           </Row>
           <Row>
-
               <div className={styles.buttonwrap}>
                <input className={styles.btn} type="submit" value="Iscriviti" />
               </div>

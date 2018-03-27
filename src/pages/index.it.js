@@ -20,6 +20,7 @@ import SezioneChi from '../components/SezioneChi'
 import SezionePerche from '../components/SezionePerche'
 import ContactForm from '../components/ContactForm'
 import ContattaciForm from '../components/ContattaciForm'
+import Footer from '../components/Footer'
 
 const IndexPage = () => (
   <div>
@@ -78,6 +79,9 @@ const IndexPage = () => (
 
     <ContattaciForm>
     </ContattaciForm>
+
+    <Footer>
+    </Footer>
 
   </div>
 )
