@@ -19,6 +19,7 @@ import ThreeCircles from '../components/ThreeCircles'
 import SezioneChi from '../components/SezioneChi'
 import SezionePerche from '../components/SezionePerche'
 import ContactForm from '../components/ContactForm'
+import ContattaciForm from '../components/ContattaciForm'
 
 const IndexPage = () => (
   <div>
@@ -75,8 +76,8 @@ const IndexPage = () => (
       subtitle={"Compila i campi qui sotto ed entra in contatto con il team di invisible"}
     />
 
-    <ContactForm>
-    </ContactForm>
+    <ContattaciForm>
+    </ContattaciForm>
 
   </div>
 )

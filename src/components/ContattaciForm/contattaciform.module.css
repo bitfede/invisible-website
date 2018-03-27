@@ -1,0 +1,56 @@
+.labelflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  align-items: flex-end;
+}
+
+.scrittacent {
+  align-self: center;
+}
+
+.formstyle {
+  background-color: #43B6E7;
+  border-radius: 5px;
+  padding: 8%;
+  display: flex;
+  flex-direction: column;
+}
+
+.globlinpt {
+  border-radius: 5px;
+  border: 2px solid #BFE1EC;
+  padding: 3%;
+  width: 70%;
+  color: #0081C2;
+}
+
+.txtinpt {
+  align-self: center;
+  width: 77%;
+  border-radius: 5px;
+  border: 2px solid #BFE1EC;
+  padding: 3%;
+  width: 70%;
+  color: #0081C2;
+}
+
+.buttonwrap {
+  width: 100%;
+  margin-top: 8%;
+  margin-bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn {
+  width: 30%;
+  padding: 1%;
+  color: white;
+  background-color: #0081C2;
+  border: 2px solid #8BD3EE;
+}
