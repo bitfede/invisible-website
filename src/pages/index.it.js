@@ -18,7 +18,6 @@ import DoveFourBoxes from '../components/DoveFourBoxes'
 import ThreeCircles from '../components/ThreeCircles'
 import SezioneChi from '../components/SezioneChi'
 import SezionePerche from '../components/SezionePerche'
-import ContactForm from '../components/ContactForm'
 import ContattaciForm from '../components/ContattaciForm'
 import Footer from '../components/Footer'
 
