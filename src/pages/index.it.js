@@ -39,11 +39,13 @@ const IndexPage = () => (
       subtitle={"Invisible è una soluzione altamente tecnologica per cambiare lo stato di un vetro da opaco a trasparente, con un solo clic."}
     />
 
-    <SezioneCosa>
-    </SezioneCosa>
+    <SezioneCosa
+      telecomandoSubtitle={"Clicca il telecomando e scopri l’effetto - Funzionamento radiocomando"}
+    />
 
-    <VisualTextBlocks>
-    </VisualTextBlocks>
+    <VisualTextBlocks
+      
+    />
 
     <TitleAndSubtitle
       w={"dove"}
