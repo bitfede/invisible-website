@@ -44,7 +44,11 @@ const IndexPage = () => (
     />
 
     <VisualTextBlocks
-      
+      titolo1={"Invisible tecnology – applicabile su vetrate già installate"}
+      para1={"Invisible è una lamina plastica che si applica su superfici di vetro già esistenti: non serve cambiare il vetro, il prodotto può essere applicato direttamente sulla superfice già esistente"}
+      titolo2={"Invisible glass – installabile in fase di costruzione"}
+      para2={"Invisible Glass è una lastra di vetro con spessore a scelta che, attraverso una piccola carica elettrica passa da opaca a trasparente"}
+
     />
 
     <TitleAndSubtitle
