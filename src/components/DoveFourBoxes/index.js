@@ -19,16 +19,16 @@ class DoveFourBoxes extends React.Component {
             <Col sm={12} md={6} style={{padding: 0}}>
               <div className={styles.backgroffice}>
                 <div className={styles.whitelayer} >
-                  <h1 className={styles.headsubtext, styles.headsubtitle}>Uffici</h1>
-                  <h3 className={styles.headsubtext, styles.headsubsubtitle}>Add a little bit of body text</h3>
+                  <h1 className={styles.headsubtext, styles.headsubtitle}>{this.props.title1}</h1>
+                  <h3 className={styles.headsubtext, styles.headsubsubtitle}>{this.props.para1}</h3>
                 </div>
               </div>
             </Col>
             <Col sm={12} md={6} style={{padding: 0}}>
               <div className={styles.backgrhospital}>
                 <div className={styles.whitelayer} >
-                  <h1 className={styles.headsubtext, styles.headsubtitle}>Ospedali</h1>
-                  <h3 className={styles.headsubtext, styles.headsubsubtitle}>Add a little bit of body text</h3>
+                  <h1 className={styles.headsubtext, styles.headsubtitle}>{this.props.title2}</h1>
+                  <h3 className={styles.headsubtext, styles.headsubsubtitle}>{this.props.para2}</h3>
                 </div>
               </div>
             </Col>
@@ -37,16 +37,16 @@ class DoveFourBoxes extends React.Component {
             <Col sm={12} md={6} style={{padding: 0}}>
               <div className={styles.backgrstore}>
                 <div className={styles.whitelayer} >
-                  <h1 className={styles.headsubtext, styles.headsubtitle}>Negozi</h1>
-                  <h3 className={styles.headsubtext, styles.headsubsubtitle}>Add a little bit of body text</h3>
+                  <h1 className={styles.headsubtext, styles.headsubtitle}>{this.props.title3}</h1>
+                  <h3 className={styles.headsubtext, styles.headsubsubtitle}>{this.props.para3}</h3>
                 </div>
               </div>
             </Col>
             <Col sm={12} md={6} style={{padding: 0}}>
               <div className={styles.backgrhotel}>
                 <div className={styles.whitelayer} >
-                  <h1 className={styles.headsubtext, styles.headsubtitle}>Hotels</h1>
-                  <h3 className={styles.headsubtext, styles.headsubsubtitle}>Add a little bit of body text</h3>
+                  <h1 className={styles.headsubtext, styles.headsubtitle}>{this.props.title4}</h1>
+                  <h3 className={styles.headsubtext, styles.headsubsubtitle}>{this.props.para4}</h3>
                 </div>
               </div>
             </Col>

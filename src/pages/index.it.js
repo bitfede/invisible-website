@@ -54,11 +54,19 @@ const IndexPage = () => (
     <TitleAndSubtitle
       w={"dove"}
       title={"Dove si applica?"}
-      subtitle={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio"}
+      subtitle={"Invisible è adatto a tanti luoghi diversi"}
     />
 
-    <DoveFourBoxes>
-    </DoveFourBoxes>
+    <DoveFourBoxes
+      title1={"Uffici"}
+      para1={"Dalle riunioni confidenziali al brainstorming. La privacy nelle grandi aziende o piccole aziende è un elemento essenziale. Invisible è la soluzione perfetta per tutti gli ambienti in cui è necessario poter gestire la privacy in modo semplice ed efficace."}
+      title2={"Abitazioni"}
+      para2={"Invisible è anche sinonimo  di interior design capace di coniugare alla perfezione innovazione, funzionalità ed estetica. Perfetto per opacizzare grandi vetrate e gestire la privacy nell’ambiente domestico, oppure funzionale e decorativo per impreziosire pareti e separare gli ambienti."}
+      title3={"Negozi"}
+      para3={"Invisible è la soluzione perfetta per il tuo store: ti permette di separare gli ambienti, allestire aree riservate e stupire il tuo pubblico con effetti inaspettati anche in vetrina!"}
+      title4={"Hotels"}
+      para4={"Dalla trasparenza alla privacy su richiesta: Invisible  permette di gestire e ottimizzare otticamente lo spazio nella tua stanza creando ambienti separati e gestendo la privacy con un click. Approfitta del gioco creativo di luce e spazio, separando la camera da letto dal bagno tramite una parete divisoria con Invisible glass."}
+    />
 
     <TitleAndSubtitle
       w={"quando"}
@@ -66,8 +74,7 @@ const IndexPage = () => (
       subtitle={""}
     />
 
-    <ThreeCircles>
-    </ThreeCircles>
+    <ThreeCircles />
 
     <SezioneChi>
     </SezioneChi>

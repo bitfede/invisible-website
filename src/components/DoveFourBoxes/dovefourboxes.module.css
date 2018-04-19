@@ -1,5 +1,5 @@
 .backgroffice {
-  background-image: url('./office.jpg');
+  background-image: url('./ufficio.jpg');
   background-size: cover;
   text-align: center;
   height: 400px;
@@ -7,7 +7,7 @@
 }
 
 .backgrhospital {
-  background-image: url('./hospital.jpg');
+  background-image: url('./abitazione.jpg');
   background-size: cover;
   text-align: center;
   height: 400px;
@@ -15,7 +15,7 @@
 }
 
 .backgrstore {
-  background-image: url('./store.jpg');
+  background-image: url('./negozio.jpg');
   background-size: cover;
   text-align: center;
   height: 400px;
@@ -33,15 +33,16 @@
 .whitelayer {
   height: 100%;
   width: 100%;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.77);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 .headsubtext {
   z-index: 10;
+
 }
 
 .headsubtitle {
@@ -49,5 +50,8 @@
 }
 
 .headsubsubtitle {
+  margin-left: 5%;
+  margin-right: 5%;
   color: #0081C2;
+  font-size: 1.3rem;
 }
