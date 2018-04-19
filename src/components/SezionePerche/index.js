@@ -19,9 +19,9 @@ class SezionePerche extends React.Component {
               <div className={styles.divpicone}>
               </div>
               <div className={styles.textdivv}>
-                <h3>PROFESSIONALI</h3>
+                <h3>{this.props.title1}</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio
+                  {this.props.para1}
                 </p>
               </div>
             </Col>
@@ -29,9 +29,9 @@ class SezionePerche extends React.Component {
               <div className={styles.divpictwo}>
               </div>
               <div className={styles.textdivv}>
-                <h3>TENACI</h3>
+                <h3>{this.props.title2}</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio
+                  {this.props.para2}
                 </p>
               </div>
             </Col>
@@ -39,9 +39,9 @@ class SezionePerche extends React.Component {
               <div className={styles.divpicthree}>
               </div>
               <div className={styles.textdivv}>
-                <h3>INNOVATIVI</h3>
+                <h3>{this.props.title3}</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio
+                  {this.props.para3}
                 </p>
               </div>
             </Col>

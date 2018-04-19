@@ -9,19 +9,23 @@
 }
 
 .divpicone {
-  background-image: url('./professional.jpg');
+  background-image: url('./progettazione.jpg');
   background-size: cover;
   height: 400px;
+  background-position: center;
+
 }
 
 .divpictwo {
-  background-image: url('./hockey.jpg');
+  background-image: url('./integrazione.jpg');
   background-size: cover;
   height: 400px;
+  background-position: center;
 }
 
 .divpicthree {
-  background-image: url('./rocket.jpg');
+  background-image: url('./innovazione.jpg');
   background-size: cover;
+  background-position: center; 
   height: 400px;
 }

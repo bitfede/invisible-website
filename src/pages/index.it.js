@@ -83,17 +83,22 @@ const IndexPage = () => (
     subtitle3={"La superficie di invisible ben si presta alla videoproiezione, unendo la funzionalità di gestione della privacy all’innovazione nelle tecniche  di proiezione su superfici trasparenti."}
     />
 
-    <SezioneChi>
-    </SezioneChi>
+    <SezioneChi />
 
     <TitleAndSubtitle
       w={"perche"}
       title={"Perchè Techlit?"}
-      subtitle={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio"}
+      subtitle={"Scegli il partner giusto"}
     />
 
-    <SezionePerche>
-    </SezionePerche>
+    <SezionePerche
+      title1={"PROGETTAZIONE"}
+      para1={"Invisible ti permette di applicare la tecnologia di oscuramento a superfici già installate, rendendo la soluzione fruibile praticamente in ogni ambiente dotato di superfici a vetro, oppure di progettare ambienti e soluzioni di design da zero, utilizzando l’innovativo vetro Invisble glass, gestendone lo spessore e le dimesioni e l’estetica."}
+      title2={"INTEGRAZIONE"}
+      para2={"La nostra esperienza, come partner tecnologici nelle aziende, ci ha permesso di sviluppare un prodotto capace di integrarsi in modo semplice con tutti gli strumenti di controllo e domotica già presenti nei Building e nelle aziende."}
+      title3={"INNOVAZIONE"}
+      para3={"Invisible è sinonimo di innovazione, dalla sua applicabilità, al concetto di estetica, dalla funzionalità alla possibilità di adattare la tecnologia in ogni ambiente."}
+    />
 
     <TitleAndSubtitle
       w={"contattaci"}
