@@ -36,7 +36,7 @@ const IndexPage = () => (
     <TitleAndSubtitle
       w={"cosa"}
       title={"Cos'é Invisible?"}
-      subtitle={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie neque odio"}
+      subtitle={"Invisible è una soluzione altamente tecnologica per cambiare lo stato di un vetro da opaco a trasparente, con un solo clic."}
     />
 
     <SezioneCosa>
