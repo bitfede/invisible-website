@@ -1,5 +1,5 @@
 /* GOOGLE FONTS IMPORT  */
-@import url('https://fonts.googleapis.com/css?family=Cairo');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html {
   /* font-family: 'Abel', sans-serif; */
@@ -202,7 +202,7 @@ html {
 body {
   color: hsla(0, 0%, 0%, 0.8);
   /* GLOBAL FONT SETTING */
-  font-family: 'Cairo', serif;
+  font-family: 'Roboto', serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
