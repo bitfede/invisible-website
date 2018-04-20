@@ -9,6 +9,7 @@ import Link from 'gatsby-link'
 // grid system
 import {Container, Row, Col, Visible, Hidden} from 'react-grid-system'
 // components
+import Header from '../components/Header'
 import SubHeader from '../components/SubHeader'
 import Jumbotron from '../components/Jumbotron'
 import SezioneCosa from '../components/SezioneCosa'
@@ -23,6 +24,7 @@ import Footer from '../components/Footer'
 
 const IndexPage = () => (
   <div>
+    <Header />
     <SubHeader
       w1={"COSA"} w2={"PERCHÉ"}
       w3={"CHI"}  w4={"QUANDO"}

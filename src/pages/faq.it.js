@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 // components
+import Header from '../components/Header'
 import SelectLangMini from '../components/SelectLangMini'
 import FaqComponent from '../components/FaqComponent'
 
@@ -10,8 +11,9 @@ import {Container, Row, Col, Visible, Hidden} from 'react-grid-system'
 
 const FaqPage = () => (
   <div>
+  <Header />
   <SelectLangMini />
- 
+
   <FaqComponent
   question1={"È possibile regolare la velocità della transizione da traslucido a trasparente?"}
   answer1={"Assolutamente no!  Il cambiamento in entrambe le direzioni è istantaneo."}
