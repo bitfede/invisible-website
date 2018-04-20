@@ -3,6 +3,8 @@ import Link from 'gatsby-link'
 
 import styles from './subheader.module.css'
 
+import logopic from './logo2.png'
+
 import {Hidden} from 'react-grid-system'
 
 class SubHeader extends React.Component{
@@ -53,7 +55,7 @@ class SubHeader extends React.Component{
       <Hidden lg xl>
         <div onClick={ () => this._closeSideNav()} className={sfondoclass}></div>
       </Hidden>
-      <span><h2 className={styles.invisiblemain}>Invisible</h2></span>
+      <img src={logopic} className={styles.invisiblemainlogo} />
         <Hidden xs sm md>
           <div className={styles.subheadlinkwrapper}>
             <Link to="#cosa" className={styles.subheadlink}>{this.props.w1}</Link>

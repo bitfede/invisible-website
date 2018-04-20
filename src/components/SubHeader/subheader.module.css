@@ -15,9 +15,21 @@
   color: #0081C2;
 }
 
+.invisiblemainlogo {
+  /* margin-left: 1rem; */
+  margin-left: 1rem;
+  width: 10%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.spanwrap {
+  margin: 0;
+  padding: 0;
+}
+
 .subheadlinkwrapper {
-  margin-top: 0.8rem;
-  color:
+  /* margin-top: 0.8rem; */
 }
 
 .subheadlink {
