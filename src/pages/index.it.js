@@ -80,7 +80,7 @@ const IndexPage = () => (
     title2={"DESIGN"}
     subtitle2={"Invisible è un prodotto di Design che unisce estetica e funzionalità"}
     title3={"VIDEOPROIEZIONE"}
-    subtitle3={"La superficie di invisible ben si presta alla videoproiezione, unendo la funzionalità di gestione della privacy all’innovazione nelle tecniche  di proiezione su superfici trasparenti."}
+    subtitle3={"La superficie di invisible ben si presta alla videoproiezione"}
     />
 
     <SezioneChi />
