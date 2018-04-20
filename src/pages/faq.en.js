@@ -15,7 +15,7 @@ const FaqPage = () => (
     <Row>
       <Col sm={12}>
         <h2>Question question ?</h2>
-        <p>Answer</p>
+        <p>traduzione in corso</p>
       </Col>
     </Row>
   </Container>

@@ -30,7 +30,7 @@ const Header = () => (
       </h3>
       <div id="rightupperhead">
         <Link
-          to="/faq"
+          to="/en/faq"
           style={{
             color: 'white',
             textDecoration: 'none',

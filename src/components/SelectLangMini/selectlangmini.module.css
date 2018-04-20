@@ -15,4 +15,9 @@
 .langlinks {
   margin-left: 1%;
   margin-right: 1%;
+  padding: 2%;
+}
+
+.langlinks:hover {
+  background-color: rgba(52, 152, 219, 0.3);
 }
