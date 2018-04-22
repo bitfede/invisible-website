@@ -28,8 +28,8 @@ class Footer extends React.Component {
               <img src={footerlogo} />
               <h4 style={{marginBottom: '3%'}}>TECHLIT SRL</h4>
               <h6 style={{color: 'lightgrey'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque</h6>
-              <h3 style={{marginBottom: '1%'}}>+39 0362 238 660</h3>
-              <h3><a className={styles.mailinogiu} href="mailto:info@techlit.it">info@techlit.it</a></h3>
+              <h4 style={{marginBottom: '1%'}}>+39 0362 238 660</h4>
+              <h4><a className={styles.mailinogiu} href="mailto:info@techlit.it">info@techlit.it</a></h4>
             </div>
           </div>
         </div>
