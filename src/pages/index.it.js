@@ -26,9 +26,9 @@ const IndexPage = () => (
   <div>
     <Header />
     <SubHeader
-      w1={"COSA"} w2={"PERCHÉ"}
-      w3={"CHI"}  w4={"QUANDO"}
-      w5={"DOVE"} w6={"CONTATTACI"}
+      w1={"COSA"} w2={"DOVE"}
+      w3={"QUANDO"}  w4={"CHI"}
+      w5={"PERCHÉ"} w6={"CONTATTACI"}
       >
     </SubHeader>
 

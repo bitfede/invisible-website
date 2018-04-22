@@ -59,10 +59,10 @@ class SubHeader extends React.Component{
         <Hidden xs sm md>
           <div className={styles.subheadlinkwrapper}>
             <Link to="#cosa" className={styles.subheadlink}>{this.props.w1}</Link>
-            <Link to="#perche" className={styles.subheadlink}>{this.props.w2}</Link>
-            <Link to="#chi" className={styles.subheadlink}>{this.props.w3}</Link>
-            <Link to="#quando" className={styles.subheadlink}>{this.props.w4}</Link>
-            <Link to="#dove" className={styles.subheadlink}>{this.props.w5}</Link>
+            <Link to="#dove" className={styles.subheadlink}>{this.props.w2}</Link>
+            <Link to="#quando" className={styles.subheadlink}>{this.props.w3}</Link>
+            <Link to="#chi" className={styles.subheadlink}>{this.props.w4}</Link>
+            <Link to="#perche" className={styles.subheadlink}>{this.props.w5}</Link>
             <Link to="#contattaci" className={styles.subheadlink}>{this.props.w6}</Link>
           </div>
         </Hidden>
