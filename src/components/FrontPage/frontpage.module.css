@@ -1,10 +1,22 @@
 .backgroundz {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
   min-width: 100%;
   min-height: 100%;
+}
+
+.mobilebkg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  background-image: url('./mobile-bkgr.jpg');
+  background-size: cover;
+  opacity: 0.3;
 }
 
 .frontwrapper {
@@ -27,4 +39,16 @@
 .flagimg {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+@media (max-width: 767px) {
+  .backgroundz {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  .mobilebkg {
+    display: none;
+  }
 }
