@@ -57,7 +57,7 @@ class ContattaciForm extends React.Component {
 
   render() {
     return (
-      <div style={{marginTop: '6%'}}>
+      <div style={{marginTop: '1%'}}>
         <Container>
           <form onSubmit={this.handleSubmit} className={styles.formstyle} >
           <Row>
