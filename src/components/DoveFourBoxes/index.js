@@ -20,7 +20,7 @@ class DoveFourBoxes extends React.Component {
               <div className={styles.backgroffice}>
                 <div className={styles.whitelayer} >
                   <h1 className={styles.headsubtext, styles.headsubtitle}>{this.props.title1}</h1>
-                  <h3 className={styles.headsubtext, styles.headsubsubtitle}>{this.props.para1}</h3>
+                  <h2 className={styles.headsubtext, styles.headsubsubtitle}>{this.props.para1}</h2>
                 </div>
               </div>
             </Col>
@@ -28,7 +28,7 @@ class DoveFourBoxes extends React.Component {
               <div className={styles.backgrhospital}>
                 <div className={styles.whitelayer} >
                   <h1 className={styles.headsubtext, styles.headsubtitle}>{this.props.title2}</h1>
-                  <h3 className={styles.headsubtext, styles.headsubsubtitle}>{this.props.para2}</h3>
+                  <h2 className={styles.headsubtext, styles.headsubsubtitle}>{this.props.para2}</h2>
                 </div>
               </div>
             </Col>
@@ -38,7 +38,7 @@ class DoveFourBoxes extends React.Component {
               <div className={styles.backgrstore}>
                 <div className={styles.whitelayer} >
                   <h1 className={styles.headsubtext, styles.headsubtitle}>{this.props.title3}</h1>
-                  <h3 className={styles.headsubtext, styles.headsubsubtitle}>{this.props.para3}</h3>
+                  <h2 className={styles.headsubtext, styles.headsubsubtitle}>{this.props.para3}</h2>
                 </div>
               </div>
             </Col>
@@ -46,7 +46,7 @@ class DoveFourBoxes extends React.Component {
               <div className={styles.backgrhotel}>
                 <div className={styles.whitelayer} >
                   <h1 className={styles.headsubtext, styles.headsubtitle}>{this.props.title4}</h1>
-                  <h3 className={styles.headsubtext, styles.headsubsubtitle}>{this.props.para4}</h3>
+                  <h2 className={styles.headsubtext, styles.headsubsubtitle}>{this.props.para4}</h2>
                 </div>
               </div>
             </Col>
