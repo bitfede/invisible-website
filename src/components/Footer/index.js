@@ -17,18 +17,17 @@ class Footer extends React.Component {
             <div>
               <h3>ABOUT US</h3>
               <ul style={{listStyleType: 'none', marginLeft: 0}}>
-                <li>Company Profile</li>
-                <li>Contact Us</li>
-                <li>Privacy Policy</li>
+                <li><a className={styles.footerlinks} target="_blank" href="http://techlit.it">Company Profile</a></li>
+                <li><a className={styles.footerlinks} href="">Privacy Policy</a></li>
               </ul>
             </div>
           </div>
           <div className={styles.logoandcontacts}>
             <div>
               <img src={footerlogo} />
-              <h4 style={{marginBottom: '3%'}}>TECHLIT SRL</h4>
-              <h6 style={{color: 'lightgrey'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque</h6>
-              <h4 style={{marginBottom: '1%'}}>+39 0362 238 660</h4>
+              <h3 style={{marginBottom: '3%'}}>TECHLIT SRL</h3>
+              <h6 className={styles.subdescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque</h6>
+              <h4 style={{marginBottom: '1%'}}><a className={styles.numgiu} href="tel:+390362238660">+39 0362 238 660</a></h4>
               <h4><a className={styles.mailinogiu} href="mailto:info@techlit.it">info@techlit.it</a></h4>
             </div>
           </div>

@@ -41,9 +41,17 @@
 }
 
 .whitelayer:hover {
-  background-color: rgba(91 , 91, 91, 0.5);
-  animation: fadeinscritte 2s;
+  background-color: rgba(91 , 91, 91, 0.7);
+  animation: fadeinscritte 1s;
   animation-fill-mode: forwards;
+}
+
+.whitelayer:hover .headsubtitle {
+  opacity: 1;
+}
+
+.whitelayer:hover .headsubsubtitle {
+  opacity: 1;
 }
 
 .headsubtext {
@@ -62,6 +70,15 @@
   font-size: 1.3rem;
   font-weight: 100;
   opacity: 0;
+}
+
+.mobilesuggestion {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  color: grey;
+  font-weight: 100;
+
 }
 
 /* ANIMATIONS */
