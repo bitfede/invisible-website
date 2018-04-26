@@ -63,14 +63,14 @@ class ContattaciForm extends React.Component {
           <Row>
             <Col sm={12} style={{padding: '2%'}}>
             <label  className={styles.labelflex}>
-              <span className={styles.scrittacent}>Email:</span>
+              <span className={styles.scrittacent}>{this.props.field1}:</span>
               <input
                 className={styles.globlinpt}
                 name="email"
                 type="text"
                 value={this.state.email}
                 onChange={this.handleChange}
-                placeholder="email@esempio.com"
+                placeholder={this.props.placehold1}
               />
             </label>
             </Col>
@@ -78,14 +78,14 @@ class ContattaciForm extends React.Component {
             <Row>
             <Col sm={12} style={{padding: '2%'}}>
             <label className={styles.labelflex}>
-              <span className={styles.scrittacent}>Nome:</span>
+              <span className={styles.scrittacent}>{this.props.field2}:</span>
               <input
                 className={styles.globlinpt}
                 name="name"
                 type="text"
                 value={this.state.name}
                 onChange={this.handleChange}
-                placeholder="Nome Cognome"
+                placeholder={this.props.placehold2}
               />
             </label>
             </Col>
@@ -93,21 +93,21 @@ class ContattaciForm extends React.Component {
             <Row>
             <Col sm={12} style={{padding: '2%'}}>
             <label className={styles.labelflex}>
-              <span className={styles.scrittacent}>Messaggio:</span>
+              <span className={styles.scrittacent}>{this.props.field3}:</span>
               <textarea
                 className={ styles.txtinpt}
                 name="msg"
                 type="text"
                 value={this.state.msg}
                 onChange={this.handleChange}
-                placeholder="Esigenze particolari? Scrivici pure qui..."
+                placeholder={this.props.placehold3}
               />
             </label>
             </Col>
           </Row>
           <Row>
               <div className={styles.buttonwrap}>
-               <input className={styles.btn} type="submit" value="Iscriviti" />
+             <input className={styles.btn} type="submit" value={this.props.btn} />
               </div>
 
           </Row>

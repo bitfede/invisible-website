@@ -81,7 +81,7 @@ const IndexPage = () => (
     subtitle1={"Gestisci la tua privacy con un click"}
     title2={"DESIGN"}
     subtitle2={"Invisible è un prodotto di Design che unisce estetica e funzionalità"}
-    title3={"VIDEOPROIEZIONE"}
+    title3={"PROIEZIONE"}
     subtitle3={"La superficie di invisible ben si presta alla videoproiezione"}
     />
 
@@ -108,8 +108,15 @@ const IndexPage = () => (
       subtitle={"Compila i campi qui sotto ed entra in contatto con il team di invisible"}
     />
 
-    <ContattaciForm>
-    </ContattaciForm>
+    <ContattaciForm
+      field1={"Email"}
+      placehold1={"email@esempio.com"}
+      field2={"Nome"}
+      placehold2={"Nome Cognome"}
+      field3={"Messaggio"}
+      placehold3={"Esigenze particolari? Scrivici pure qui.."}
+      btn={"Invia"}
+    />
 
     <Footer>
     </Footer>

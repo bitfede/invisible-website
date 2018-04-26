@@ -28,6 +28,8 @@
   padding: 1%;
   width: 80%;
   color: #0081C2;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .txtinpt {
@@ -40,6 +42,8 @@
   padding-left: 1%;
   width: 80%;
   color: #0081C2;
+  font-weight: 100;
+  font-style: italic;
 }
 
 .buttonwrap {

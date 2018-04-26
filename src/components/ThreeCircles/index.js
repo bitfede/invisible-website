@@ -35,7 +35,7 @@ class ThreeCircles extends React.Component {
             </Col>
             <Col sm={12} md={4}>
               <div className={styles.boxdiv}>
-                 <img className={styles.icon2} src={projector} />
+                 <img className={styles.icon3} src={projector} />
                 <h1 className={styles.title3}>{this.props.title3}</h1>
                 <h3 className={styles.subtitle}>{this.props.subtitle3}</h3>
               </div>

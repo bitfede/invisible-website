@@ -26,22 +26,22 @@ class SezionePerche extends React.Component {
               </div>
             </Col>
             <Col sm={12} md={4}>
-              <div className={styles.divpictwo}>
-              </div>
-              <div className={styles.textdivv}>
-                <h3>{this.props.title2}</h3>
-                <p>
-                  {this.props.para2}
-                </p>
-              </div>
-            </Col>
-            <Col sm={12} md={4}>
               <div className={styles.divpicthree}>
               </div>
               <div className={styles.textdivv}>
                 <h3>{this.props.title3}</h3>
                 <p>
                   {this.props.para3}
+                </p>
+              </div>
+            </Col>
+            <Col sm={12} md={4}>
+              <div className={styles.divpictwo}>
+              </div>
+              <div className={styles.textdivv}>
+                <h3>{this.props.title2}</h3>
+                <p>
+                  {this.props.para2}
                 </p>
               </div>
             </Col>
