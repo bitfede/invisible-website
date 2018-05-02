@@ -23,6 +23,12 @@
   margin-top: 1rem;
 }
 
+@media (max-width: 600px) {
+  .invisiblemainlogo {
+    width: 25%;
+  }
+}
+
 .spanwrap {
   margin: 0;
   padding: 0;

@@ -3,13 +3,13 @@ import Link from 'gatsby-link'
 
 import styles from './subheader.module.css'
 
-import logopic from './logo2.png'
+import logopic from './logo.png'
 
 import {Hidden} from 'react-grid-system'
 
 class SubHeader extends React.Component{
   constructor (props) {
-        super(props);
+        super(props); 
 
         this.state = {
           sideNavOpen: "start",
