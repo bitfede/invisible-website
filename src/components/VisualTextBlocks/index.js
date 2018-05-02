@@ -25,6 +25,7 @@ class VisualTextBlocks extends React.Component {
             <Col sm={12} md={6}>
               <div className={styles.txtBlockWrapper}>
                 <h1 className={styles.blocktext}>{this.props.titolo1}</h1>
+                <h2 className={styles.blocktextmid}>{this.props.titolomid1}</h2>
                 <h3 className={styles.blocktextlil}>{this.props.para1}</h3>
               </div>
             </Col>
@@ -34,6 +35,7 @@ class VisualTextBlocks extends React.Component {
             <Col sm={12} md={6}>
               <div className={styles.txtBlockWrapper}>
                 <h1 className={styles.blocktext}>{this.props.titolo2}</h1>
+                <h2 className={styles.blocktextmid}>{this.props.titolomid2}</h2>
                 <h3 className={styles.blocktextlil}>{this.props.para2}</h3>
               </div>
             </Col>
@@ -54,6 +56,7 @@ class VisualTextBlocks extends React.Component {
             <Col sm={12} md={6}>
               <div className={styles.txtBlockWrapper}>
                 <h1 className={styles.blocktext}>{this.props.titolo2}</h1>
+                <h2 className={styles.blocktextmid}>{this.props.titolomid2}</h2>
                 <h3 className={styles.blocktextlil}>{this.props.para2}</h3>
               </div>
             </Col>

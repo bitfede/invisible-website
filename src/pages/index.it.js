@@ -46,9 +46,11 @@ const IndexPage = () => (
     />
 
     <VisualTextBlocks
-      titolo1={"Invisible tecnology – applicabile su vetrate già installate"}
+      titolo1={"INVISIBLE TECHNOLOGY"}
+      titolomid1={"APPLICABILE SU VETRATE GIÀ INSTALLATE"}
       para1={"Invisible è una lamina plastica che si applica su superfici di vetro già esistenti: non serve cambiare il vetro, il prodotto può essere applicato direttamente sulla superfice già esistente"}
-      titolo2={"Invisible glass – installabile in fase di costruzione"}
+      titolo2={"INVISIBLE GLASS"}
+      titolomid2={"INSTALLABILE IN FASE DI COSTRUZIONE"}
       para2={"Invisible Glass è una lastra di vetro con spessore a scelta che, attraverso una piccola carica elettrica passa da opaca a trasparente"}
 
     />
@@ -72,7 +74,7 @@ const IndexPage = () => (
 
     <TitleAndSubtitle
       w={"quando"}
-      title={"Quando usare Invisible?"}
+      title={"QUANDO USARE INVISIBLE?"}
       subtitle={""}
     />
 
@@ -89,7 +91,7 @@ const IndexPage = () => (
 
     <TitleAndSubtitle
       w={"perche"}
-      title={"Perchè Techlit?"}
+      title={"PERCHÈ TECHLIT?"}
       subtitle={"Scegli il partner giusto"}
     />
 
@@ -104,7 +106,7 @@ const IndexPage = () => (
 
     <TitleAndSubtitle
       w={"contattaci"}
-      title={"Contattaci"}
+      title={"CONTATTACI"}
       subtitle={"Compila i campi qui sotto ed entra in contatto con il team di invisible"}
     />
 

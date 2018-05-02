@@ -26,7 +26,7 @@ class Footer extends React.Component {
             <div>
               <img src={footerlogo} />
               <h3 style={{marginBottom: '3%'}}>TECHLIT SRL</h3>
-              <h6 className={styles.subdescription}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque</h6>
+              <h6 className={styles.subdescription}>Progettiamo e sviluppiamo sistemi di comunicazione digitale, <br/> unendo la passione per la tecnologia ad una spiccata creatività<br/> nel creare soluzioni di comunicazione all'avanguardia e customizzate.</h6>
               <h4 style={{marginBottom: '1%'}}><a className={styles.numgiu} href="tel:+390362238660">+39 0362 238 660</a></h4>
               <h4><a className={styles.mailinogiu} href="mailto:info@techlit.it">info@techlit.it</a></h4>
             </div>
