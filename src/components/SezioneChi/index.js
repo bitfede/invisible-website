@@ -14,7 +14,7 @@ class SezioneChi extends React.Component {
   render() {
     return (
       <div id="chi" className={styles.backgroundblue}>
-        <h1 className={styles.maintitle}>Chi ci ha scelto</h1>
+        <h1 className={styles.maintitle}>{this.props.title}</h1>
         <Container className={styles.maincontainer}>
           <Row>
             <Col sm={6} md={3}>

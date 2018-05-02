@@ -87,7 +87,9 @@ const IndexPage = () => (
     subtitle3={"La superficie di invisible ben si presta alla videoproiezione"}
     />
 
-    <SezioneChi />
+    <SezioneChi
+      title={"CHI CI HA SCELTO"}
+     />
 
     <TitleAndSubtitle
       w={"perche"}

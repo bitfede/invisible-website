@@ -21,16 +21,16 @@
 .blocktext {
   color: white;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   padding-top: 20%;
   font-size: 2rem;
 }
 
 .blocktextmid {
   color: white;
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .blocktextlil {

@@ -17,6 +17,9 @@ class DoveFourBoxes extends React.Component {
         <Hidden lg xl>
           <p className={styles.mobilesuggestion}>(Tocca le immagini per vedere più informazioni)</p>
         </Hidden>
+        <Hidden xs sm md>
+          <p className={styles.mobilesuggestion}>(Posiziona il mouse sulle immagini per vedere più informazioni)</p>
+        </Hidden>
         <Container style={{marginTop: '5%', marginBottom: '10%'}}>
           <Row>
             <Col sm={12} md={6} style={{padding: 0}}>
