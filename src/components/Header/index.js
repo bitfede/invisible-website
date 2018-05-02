@@ -18,7 +18,8 @@ const Header = () => (
     >
       <h3 style={{ margin: 0 }}>
         <Link
-          to="/"
+          to="http://techlit.it"
+          target="_blank"
           style={{
             color: 'white',
             textDecoration: 'none',
