@@ -9,7 +9,7 @@ import {Hidden} from 'react-grid-system'
 
 class SubHeader extends React.Component{
   constructor (props) {
-        super(props); 
+        super(props);
 
         this.state = {
           sideNavOpen: "start",
@@ -78,10 +78,10 @@ class SubHeader extends React.Component{
             <h3 className={styles.bluetechlitstrong} style={{width: '1000px', marginLeft: '1.5rem', marginTop: '1rem'}}>MENU</h3>
             <ul className={styles.bluetechlitmedium} style={{width: '1000px', listStyleType: 'none'}}>
               <Link to="#cosa" className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w1)}>{this.props.w1}</Link>
-              <Link to="#perche" className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w2)}>{this.props.w2}</Link>
-              <Link to="#chi" className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w3)}>{this.props.w3}</Link>
-              <Link to="#quando" className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w4)}>{this.props.w4}</Link>
-              <Link to="#dove" className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w5)}>{this.props.w5}</Link>
+              <Link to="#dove" className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w2)}>{this.props.w2}</Link>
+              <Link to="#quando" className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w3)}>{this.props.w3}</Link>
+              <Link to="#chi" className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w4)}>{this.props.w4}</Link>
+              <Link to="#perche" className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w5)}>{this.props.w5}</Link>
               <Link to="#contattaci" className={styles.mobileNavItem} onClick={() => this._mobileMenuClick(this.props.w6)}>{this.props.w6}</Link>
             </ul>
           </div>
