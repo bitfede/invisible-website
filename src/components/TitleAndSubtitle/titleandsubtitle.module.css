@@ -10,19 +10,29 @@
 .titolo {
   color: #0081C2;
   text-align: center;
+  font-size: 2.5rem;
 }
 
 .sottotitolo {
-  color: #43B6E7;
-  font-weight: 300;
+  color: #5b5b5b;
+  font-weight: 400;
   margin-left: 5%;
   margin-right: 5%;
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  .titolo {
+    font-size: 2.0rem;
+  }
+  .sottotitolo {
+    font-size: 1.0rem;
+  }
+}
+
 @media (min-width: 800px) {
   .titolo {
     color: #0081C2;
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
 }

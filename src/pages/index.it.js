@@ -37,7 +37,7 @@ const IndexPage = () => (
 
     <TitleAndSubtitle
       w={"cosa"}
-      title={"Cos'é Invisible?"}
+      title={"COS'E INVISIBLE?"}
       subtitle={"Invisible è una soluzione altamente tecnologica per cambiare lo stato di un vetro da opaco a trasparente, con un solo clic."}
     />
 
@@ -55,7 +55,7 @@ const IndexPage = () => (
 
     <TitleAndSubtitle
       w={"dove"}
-      title={"Dove si applica?"}
+      title={"DOVE SI APPLICA?"}
       subtitle={"Invisible è adatto a tanti luoghi diversi"}
     />
 
