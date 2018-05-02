@@ -115,6 +115,8 @@ const IndexPage = () => (
     <ContattaciForm
       field1={"Email"}
       placehold1={"email@esempio.com"}
+      fieldcompany={"Azienda"}
+      placehldcompany={"Nome Azienda"}
       field2={"Nome"}
       placehold2={"Nome Cognome"}
       field3={"Messaggio"}

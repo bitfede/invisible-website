@@ -13,6 +13,7 @@ class ContattaciForm extends React.Component {
 
     this.state = {
       email: '',
+      company: '',
       name: '',
       msg: '',
       statusRes: '',
@@ -39,6 +40,7 @@ class ContattaciForm extends React.Component {
     const email = this.state.email
     const listFields = {
       FNAME: this.state.name,
+      CMPNY: this.state.company,
       MMERGE5: this.state.msg
     }
     addToMailchimp(email, listFields)
@@ -71,6 +73,21 @@ class ContattaciForm extends React.Component {
                 value={this.state.email}
                 onChange={this.handleChange}
                 placeholder={this.props.placehold1}
+              />
+            </label>
+            </Col>
+            </Row>
+            <Row>
+            <Col sm={12} style={{padding: '2%'}}>
+            <label className={styles.labelflex}>
+              <span className={styles.scrittacent}>{this.props.fieldcompany}:</span>
+              <input
+                className={styles.globlinpt}
+                name="company"
+                type="text"
+                value={this.state.company}
+                onChange={this.handleChange}
+                placeholder={this.props.placehldcompany}
               />
             </label>
             </Col>
