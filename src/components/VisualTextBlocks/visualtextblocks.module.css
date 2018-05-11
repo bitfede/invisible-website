@@ -2,7 +2,7 @@
   height: 100%;
   background-image: url('./block-left.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
   position: relative;
 }
 
@@ -10,7 +10,7 @@
   height: 100%;
   background-image: url('./block-right.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
   position: relative;
 }
 
