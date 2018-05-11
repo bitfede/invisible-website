@@ -37,7 +37,7 @@ const IndexPage = () => (
 
     <TitleAndSubtitle
       w={"cosa"}
-      title={"What is Invisible?"}
+      title={"WHAT IS INVISIBLE?"}
       subtitle={"Invisible is a technology that can be applied to glass. It changes the glass' transparency with a simple command"}
     />
 
@@ -46,60 +46,60 @@ const IndexPage = () => (
     />
 
     <VisualTextBlocks
-      titolo1={"Invisible tecnology – applicabile su vetrate già installate"}
-      para1={"DA TRADURRE Invisible è una lamina plastica che si applica su superfici di vetro già esistenti: non serve cambiare il vetro, il prodotto può essere applicato direttamente sulla superfice già esistente"}
-      titolo2={"Invisible glass – installabile in fase di costruzione"}
-      para2={"Invisible Glass è una lastra di vetro con spessore a scelta che, attraverso una piccola carica elettrica passa da opaca a trasparente"}
+      titolo1={"Invisible tecnology – can be installed on existing glasses and glass panels"}
+      para1={"Invisible is a thin plastic film that can be applied on existing glass surfaces: you will not need to change the glass, the product can be applied directly on the existing surface"}
+      titolo2={"Invisible glass – can be installed during the building phase"}
+      para2={"Invisible Glass is a glass layer with various thicknesses, thanks to a small elecric charge it can change state from opaque to completely transparent"}
 
     />
 
     <TitleAndSubtitle
       w={"dove"}
-      title={"Dove si applica?"}
-      subtitle={"Invisible è adatto a tanti luoghi diversi"}
+      title={"WHERE CAN I APPLY IT?"}
+      subtitle={"Invisible is well-suited for many different places"}
     />
 
     <DoveFourBoxes
-      title1={"Uffici"}
-      para1={"Dalle riunioni confidenziali al brainstorming. La privacy nelle grandi aziende o piccole aziende è un elemento essenziale. Invisible è la soluzione perfetta per tutti gli ambienti in cui è necessario poter gestire la privacy in modo semplice ed efficace."}
-      title2={"Abitazioni"}
-      para2={"Invisible è anche sinonimo  di interior design capace di coniugare alla perfezione innovazione, funzionalità ed estetica. Perfetto per opacizzare grandi vetrate e gestire la privacy nell’ambiente domestico, oppure funzionale e decorativo per impreziosire pareti e separare gli ambienti."}
-      title3={"Negozi"}
-      para3={"Invisible è la soluzione perfetta per il tuo store: ti permette di separare gli ambienti, allestire aree riservate e stupire il tuo pubblico con effetti inaspettati anche in vetrina!"}
+      title1={"Offices"}
+      para1={"From confidential meetings to brainstorming sessions. Privacy is fundamental in both big and small companies. Invisible is the perfect solution for all these environments where it's important to manage privacy in an easy way"}
+      title2={"Homes"}
+      para2={"Invisible is a synonim of interior design because it is able to perfectly mix innovation, functionality and aestetics. Perfect for making glasses opaque and managing privacy at home, or simply to decorate rooms and separating them."}
+      title3={"Stores"}
+      para3={"Invisible is the perfect solution for your store: it allows yout to keep separate environments, set up reserved rooms and surprise your customers with unexpected special effects, even on the storefront!"}
       title4={"Hotels"}
-      para4={"Dalla trasparenza alla privacy su richiesta: Invisible  permette di gestire e ottimizzare otticamente lo spazio nella tua stanza creando ambienti separati e gestendo la privacy con un click. Approfitta del gioco creativo di luce e spazio, separando la camera da letto dal bagno tramite una parete divisoria con Invisible glass."}
+      para4={"On-demand privacy or transparency: Invisible  allows you to optically manage and optimize the space in your room creating separate environments and managing privacy with a click. Take advantage of the creative game of light and space, separating the bedroom from the bathroom with an Invisible-powered glass wall."}
     />
 
     <TitleAndSubtitle
       w={"quando"}
-      title={"Quando usare Invisible?"}
+      title={"WHEN CAN I USE INVISIBLE?"}
       subtitle={""}
     />
 
     <ThreeCircles
     title1={"PRIVACY"}
-    subtitle1={"Gestisci la tua privacy con un click"}
+    subtitle1={"Manage your privacy with a click"}
     title2={"DESIGN"}
-    subtitle2={"Invisible è un prodotto di Design che unisce estetica e funzionalità"}
+    subtitle2={"Invisible is a high-end design product that combines aestetics with functionality"}
     title3={"VIDEOPROIEZIONE"}
-    subtitle3={"La superficie di invisible ben si presta alla videoproiezione"}
+    subtitle3={"Invisible's surface is well-suited for video projection"}
     />
 
     <SezioneChi />
 
     <TitleAndSubtitle
       w={"perche"}
-      title={"Perchè Techlit?"}
-      subtitle={"Scegli il partner giusto"}
+      title={"WHY TECHLIT?"}
+      subtitle={"Choose the right partner"}
     />
 
     <SezionePerche
       title1={"PROGETTAZIONE"}
-      para1={"Invisible ti permette di applicare la tecnologia di oscuramento a superfici già installate, rendendo la soluzione fruibile praticamente in ogni ambiente dotato di superfici a vetro, oppure di progettare ambienti e soluzioni di design da zero, utilizzando l’innovativo vetro Invisble glass, gestendone lo spessore e le dimesioni e l’estetica."}
+      para1={"Invisible allows you to install the technology on existing glass, making this potentially available to every glass surface. It can be also implemented from scratch, where you design your environment from zero, with the Invisible Glass, customizable with every thickness and shape."}
       title2={"INTEGRAZIONE"}
-      para2={"La nostra esperienza, come partner tecnologici nelle aziende, ci ha permesso di sviluppare un prodotto capace di integrarsi in modo semplice con tutti gli strumenti di controllo e domotica già presenti nei Building e nelle aziende."}
+      para2={"Our experience as technology partners of many companies, allowed us to develop a product that is able to integrate in simple ways with all the controls and internet-of-things already present in many buildings and warehouses."}
       title3={"INNOVAZIONE"}
-      para3={"Invisible è sinonimo di innovazione, dalla sua applicabilità, al concetto di estetica, dalla funzionalità alla possibilità di adattare la tecnologia in ogni ambiente."}
+      para3={"Invisible means innovation because of its ability and to adapt everywhere and his ability to look amazing. It is truly a functional piece of technology that can go anywhere"}
     />
 
     <TitleAndSubtitle
@@ -108,8 +108,17 @@ const IndexPage = () => (
       subtitle={"Compila i campi qui sotto ed entra in contatto con il team di invisible"}
     />
 
-    <ContattaciForm>
-    </ContattaciForm>
+    <ContattaciForm
+      field1={"Email"}
+      placehold1={"email@example.com"}
+      fieldcompany={"Company"}
+      placehldcompany={"Name of your Company"}
+      field2={"Name"}
+      placehold2={"Name and Last Name"}
+      field3={"Message"}
+      placehold3={"Do you have a question or doubt? Write everything here.."}
+      btn={"Send"}
+    />
 
     <Footer>
     </Footer>

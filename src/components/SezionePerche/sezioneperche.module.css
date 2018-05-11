@@ -9,7 +9,7 @@
 }
 
 .divpicone {
-  background-image: url('./progettazione.jpg');
+  background-image: url('./progettazione.jpeg');
   background-size: cover;
   height: 400px;
   background-position: center;
@@ -17,15 +17,15 @@
 }
 
 .divpictwo {
-  background-image: url('./integrazione.jpg');
+  background-image: url('./integrazione.png');
   background-size: cover;
   height: 400px;
   background-position: center;
 }
 
 .divpicthree {
-  background-image: url('./innovazione.jpg');
+  background-image: url('./innovazione.png');
   background-size: cover;
-  background-position: center; 
+  background-position: center;
   height: 400px;
 }
