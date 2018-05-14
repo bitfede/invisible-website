@@ -11,16 +11,23 @@ import {Container, Row, Col, Visible, Hidden} from 'react-grid-system'
 // components
 import TitleAndSubtitle from '../components/TitleAndSubtitle'
 import FrontPage from '../components/FrontPage'
-
+// logo
+import logo from '../components/FrontPage/logo.png'
 
 const IndexPage = () => (
   <div>
 
-    <div style={{marginTop: '15%'}} />
+    <div style={{marginTop: '10%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}} >
+    <Hidden xs sm md>
+    <img src={logo} style={{width: '25%'}} />
+    </Hidden>
+    <Hidden lg xl>
+    <img src={logo} style={{width: '60%'}} />
+    </Hidden>
     <TitleAndSubtitle
-      title={"Invisible by Techlit"}
       subtitle={"Seleziona il linguaggio / Select the language"}
     />
+    </div>
 
     <FrontPage>
     </FrontPage>

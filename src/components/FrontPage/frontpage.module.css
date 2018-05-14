@@ -1,10 +1,11 @@
 .backgroundz {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
   min-width: 100%;
   min-height: 100%;
+  transform: translate(-20%,0);
 }
 
 .mobilebkg {

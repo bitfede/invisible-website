@@ -6,6 +6,7 @@ import styles from './jumbotron.module.css'
 
 import pic from './copertina.jpg'
 
+
 class Jumbotron extends React.Component{
     constructor (props) {
         super(props);
