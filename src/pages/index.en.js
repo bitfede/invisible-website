@@ -94,18 +94,18 @@ const IndexPage = () => (
     />
 
     <SezionePerche
-      title1={"PROGETTAZIONE"}
-      para1={"Invisible allows you to install the technology on existing glass, making this potentially available to every glass surface. It can be also implemented from scratch, where you design your environment from zero, with the Invisible Glass, customizable with every thickness and shape."}
-      title2={"INTEGRAZIONE"}
-      para2={"Our experience as technology partners of many companies, allowed us to develop a product that is able to integrate in simple ways with all the controls and internet-of-things already present in many buildings and warehouses."}
-      title3={"INNOVAZIONE"}
-      para3={"Invisible means innovation because of its ability and to adapt everywhere and his ability to look amazing. It is truly a functional piece of technology that can go anywhere"}
+      title1={"PLANNING"}
+      para1={"Invisible allows you to install the technology on existing glass surfaces. It can be also implemented from scratch, so you can design your environment from zero."}
+      title2={"INTEGRATION"}
+      para2={"Our experience allowed us to develop a product that is able to integrate in simple ways with all the interfaces and internet-of-things solutions already present in many buildings and warehouses."}
+      title3={"INNOVATION"}
+      para3={"Invisible means innovation because of its ability and to adapt everywhere and its ability to look amazing. It is truly a functional piece of technology that can go anywhere"}
     />
 
     <TitleAndSubtitle
       w={"contattaci"}
-      title={"Contattaci"}
-      subtitle={"Compila i campi qui sotto ed entra in contatto con il team di invisible"}
+      title={"CONTACT US"}
+      subtitle={"Fill out the form below with your info to get in touch with the Invisible Team"}
     />
 
     <ContattaciForm

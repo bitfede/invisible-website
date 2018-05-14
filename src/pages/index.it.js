@@ -99,9 +99,9 @@ const IndexPage = () => (
 
     <SezionePerche
       title1={"PROGETTAZIONE"}
-      para1={"Invisible ti permette di applicare la tecnologia di oscuramento a superfici già installate, rendendo la soluzione fruibile praticamente in ogni ambiente dotato di superfici a vetro, oppure di progettare ambienti e soluzioni di design da zero, utilizzando l’innovativo vetro Invisble glass, gestendone lo spessore e le dimesioni e l’estetica."}
+      para1={"Invisible ti permette di applicare la tecnologia di oscuramento a superfici già installate oppure di progettare ambienti di design da zero, rendendo la soluzione fruibile in ogni ambiente"}
       title2={"INTEGRAZIONE"}
-      para2={"La nostra esperienza, come partner tecnologici nelle aziende, ci ha permesso di sviluppare un prodotto capace di integrarsi in modo semplice con tutti gli strumenti di controllo e domotica già presenti nei Building e nelle aziende."}
+      para2={"La nostra esperienza, ci ha permesso di sviluppare un prodotto capace di integrarsi in modo semplice con tutti gli strumenti di controllo e domotica già presenti nei Building e nelle aziende."}
       title3={"INNOVAZIONE"}
       para3={"Invisible è sinonimo di innovazione, dalla sua applicabilità, al concetto di estetica, dalla funzionalità alla possibilità di adattare la tecnologia in ogni ambiente."}
     />
