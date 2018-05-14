@@ -32,8 +32,13 @@ const IndexPage = () => (
       >
     </SubHeader>
 
-    <Jumbotron>
-    </Jumbotron>
+    <Jumbotron
+      statictext={"Privacy"}
+      text1={" at the office"}
+      text2={" at home"}
+      text3={" where you want"}
+      text4={" with one click"}
+    />
 
     <TitleAndSubtitle
       w={"cosa"}

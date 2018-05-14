@@ -7,25 +7,26 @@ import styles from './jumbotron.module.css'
 import pic from './copertina.jpg'
 
 class Jumbotron extends React.Component{
-  constructor (props) {
+    constructor (props) {
         super(props);
     }
 
     render() {
+
       return (
         <div className={styles.maincontainer}>
           <img className={styles.jumboimage} src={pic} />
-          <h1 className={styles.headlinemain}>La Privacy
+          <h1 className={styles.headlinemain}>{this.props.statictext}
             <Typewriting
               className={styles.blinkershit}
               waitBeforeDeleteMs={3000}
               writeSpeedMs={200}
               deleteSpeedMs={100}
               strings={[
-                ' in ufficio',
-                ' in casa',
-                ' dove vuoi',
-                ' con un click!'
+                this.props.text1,
+                this.props.text2,
+                this.props.text3,
+                this.props.text4
               ]}
             />
           </h1>
