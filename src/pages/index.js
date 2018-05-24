@@ -16,7 +16,7 @@ import logo from '../components/FrontPage/logo.png'
 
 const IndexPage = () => (
   <div>
-
+  
     <div style={{marginTop: '10%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}} >
     <Hidden xs sm md>
     <img src={logo} style={{width: '25%'}} />
