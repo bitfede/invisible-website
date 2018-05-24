@@ -4,7 +4,7 @@ import Typewriting from 'react-typewriting'
 
 import styles from './jumbotron.module.css'
 
-import pic from './copertina.jpg'
+import pic from './copertina.png'
 
 
 class Jumbotron extends React.Component{

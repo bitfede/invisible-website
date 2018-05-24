@@ -20,6 +20,7 @@ const Header = () => (
       <a style={{
         color: 'white',
         textDecoration: 'none',
+        maxWidth: '100%', 
       }} href="http://techlit.it" target="_blank">
 
 

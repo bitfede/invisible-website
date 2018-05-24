@@ -5,7 +5,7 @@ import {Container, Row, Col, Visible, Hidden} from 'react-grid-system'
 import styles from './sezionecosa.module.css'
 
 import leftImgOn from './foto-on.png'
-import leftImgOff from './foto-off.png'
+import leftImgOff from './foto-off.png' 
 import rightImg from './telecomando.png'
 
 

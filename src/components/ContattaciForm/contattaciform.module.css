@@ -5,17 +5,16 @@
   color: white;
   font-weight: 700;
   font-size: 1.1rem;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .scrittacent {
   margin-top: 1%;
-  align-self: flex-start;
   margin-right: 2%;
 }
 
 .formstyle {
-  background-color: #43B6E7;
+  background-color: #43b6e7;
   border-radius: 5px;
   padding: 8%;
   display: flex;
@@ -24,10 +23,10 @@
 
 .globlinpt {
   border-radius: 5px;
-  border: 2px solid #BFE1EC;
-  padding: 1%;
+  border: 2px solid #bfe1ec;
+  padding: 10px 1%;
   width: 80%;
-  color: #0081C2;
+  color: #0081c2;
   font-weight: 100;
   font-style: italic;
 }
@@ -36,19 +35,19 @@
   align-self: center;
   width: 77%;
   border-radius: 5px;
-  border: 2px solid #BFE1EC;
+  border: 2px solid #bfe1ec;
   padding-bottom: 4%;
-  padding-top: 1%;
-  padding-left: 1%;
+  padding-top: 10px;
+  padding-left: 10px;
   width: 80%;
-  color: #0081C2;
+  color: #0081c2;
   font-weight: 100;
   font-style: italic;
 }
 
 .buttonwrap {
   width: 100%;
-  margin-top: 8%;
+  margin-top: 30px;
   margin-bottom: 0%;
   display: flex;
   flex-direction: row;
@@ -57,8 +56,9 @@
 
 .btn {
   width: 30%;
-  padding: 1%;
+  padding: 10px 1%;
   color: white;
-  background-color: #0081C2;
-  border: 2px solid #8BD3EE;
+  cursor: pointer;
+  background-color: #0081c2;
+  border: 2px solid #8bd3ee;
 }
