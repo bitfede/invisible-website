@@ -12,42 +12,42 @@ import {Container, Row, Col, Visible, Hidden} from 'react-grid-system'
 const FaqPage = () => (
   <div>
   <Header />
-  <SelectLangMini />
+  <SelectLangMini currentPage={"EN"} />
 
   <FaqComponent
-  question1={"Is it possible to regulate the transition speed from transparent to translucent?"}
-  answer1={"No, The change is instantaneous in both directions."}
-  question2={"Can I dim the transition effect?"}
-  answer2={"**** non c'era la risposta sul doc word"}
-  question3={"Quando Invisible consumano energia?"}
-  answer3={"Invisible consuma energia quando è trasparente, ciòe in posizione ON."}
+  question1={"E’ possibile modificare il tempo di transizione tra opaco e trasparente?"}
+  answer1={"No, il cambio di stato di INVISIBLE è istantaneo."}
+  question2={"E’ possibile regolare il grado di trasparenza?"}
+  answer2={"Si, mediante l’uso di specifici alimentatori, è possibile regolare il grado di trasparenza, comandandoli attraverso i più comuni dimmer."}
+  question3={"Quando INVISIBLE consuma energia?"}
+  answer3={"INVISIBLE consuma energia solo quando è trasparente, con un consumo indicativo di 7W al metro quadro."}
   question4={"Che tensione richiede?"}
-  answer4={"Invisible richiede una tensione di 100 volt AC/50Hz/60Hz"}
-  question5={"Qual è lo spessore disponibile di Invisible Glass?"}
-  answer5={"Un vetro invisible standard è composto da due lastre di spessorre 3 mm o 4 mm o 5 mm ed invsible all’interno, lo spessore totale è 11,5/12 mm."}
+  answer4={"INVISIBLE richiede una tensione di 70 V AC a 50Hz/60Hz"}
+  question5={"Qual è lo spessore disponibile di INVISIBLE Glass?"}
+  answer5={"INVISIBLE Glass, è composto da due lastre in vetro e una lamina LCD nel mezzo. Lo spessore delle lastre può essere richiesto a 3,4 o 5 mm.\n | Esempio:  4mm (vetro1) + 1mm (lamina LCD) + 4mm (vetro2) = 9 mm di spessore INVISIBLE Glass"}
   question6={"Che tipo di cavo è necessario per collegare il trasformatore al vetro?"}
   answer6={"Due tipi di cavi sono utilizzati per la convenienza dei clienti per quanto riguarda IPX4 o IPX7 norme di sicurezza elettrica."}
   question7={"Qual è la distanza massima tra il vetro e il trasformatore?"}
-  answer7={"???"}
+  answer7={"E’ consigliato posizionare il trasformatore il più vicino possibile ai vetri, evitando possibili dispersioni e perdite di potenza, ma comunque ad una distanza massima di 50 m."}
   question8={"Invisible Glass può avere tacche o buchi?"}
-  answer8={"Sì, Invisible può avere tacche o buchi."}  question9={"Qual è la temperatura migliore per un pannello priva-Lite?"}
-  answer9={" La temperatura ottimale per priva-Lite è compresa tra-20 ° c e + 60 ° c."}
-  question10={"Invisible Glass può avere tacche o buchi?"}
-  answer10={"Sì, Invisible può avere tacche o buchi."}
-  question11={"È sicuro di toccare priva-Lite nella posizione \"on\"?"}
-  answer11={"Assolutamente! Dal momento che il film Ciekłokrystaliczna è chiuso ermeticamente tra due vetri, priva-Lite è sicuro da toccare, anche ai bordi e anche in modalità on. Inoltre, il gruppo di esperti scientifici ha un grado di protezione IP43"}
-  question12={"Quanta energia consuma quando \"on\"?"}
-  answer12={"Invisible  consumano solo 7 watt per m ², considerando che una lampadina di casa consuma 84 W, il consumo è davvero limitato."}
-  question13={"Quali sono le dimensioni massime?"}
-  answer13={"Le dimensioni massime di invisible è 1800 mm x 3750 mm in un unico blocco, per dimensioni maggiori contattateci."}
-  question14={"Invisible può essere stratificata in vetri doppi o tripli?"}
-  answer14={"Sì. Entrambi i vetri doppi e tripli temperati adatti per pareti esterne."}
-  question15={"Invisible può essere proiettato?"}
-  answer15={"Sì. Invisible è proiettabile con un normale videoproiettore. L’effetto migliore si otterrà se il videoproiettore viene posizionato dietro alla pellicola"}
-  question16={"Invisible può essere temperato/temperato?"}
-  answer16={"Sì. Invisible può essere costituito da due lastre di vetro temprato e temperato extra-chiaro."}
-  question17={"Invisible è di semplice applicazione a pareti già esistenti?"}
-  answer17={"???"}
+  answer8={"Sì, INVISIBLE può avere tacche o buchi, dando la possibilità di creare forme e geometrie di ogni genere."}  question9={"A quale temperatura lavora un pannello INVISIBLE?"}
+  answer9={"La temperatura ottimale è compresa tra -20 ° C e + 60 ° C."}
+  question10={"È sicuro toccare INVISIBLE quando è alimentato?"}
+  answer10={"Assolutamente sì. Dal momento che la lamina LCD è stratificata tra due vetri, non rappresenta un rischio. "}
+  question11={"Quali sono le dimensioni massime di INVISIBLE?"}
+  answer11={"Le dimensioni massime di INVISIBLE sono 1.800 mm x 3.750 mm in un unico blocco; per dimensioni maggiori contattateci."}
+  question12={"INVISIBLE può essere stratificato in vetri tripli?"}
+  answer12={"Sì."}
+  question13={"INVISIBLE può essere utilizzato come superfice di proiezione?"}
+  answer13={"Sì. INVISIBLE è proiettabile con un normale videoproiettore. L’effetto migliore si ottiene posizionando il videoproiettore dietro la superfice di INVISIBLE."}
+  question14={"INVISIBLE può essere stratificato con vetri temperati?"}
+  answer14={"Sì. INVISIBLE può essere costituito da due lastre di vetro temprato e temperato extra-chiaro."}
+  question15={"INVISIBLE è di semplice applicazione a pareti già esistenti?"}
+  answer15={"La lamina LCD di INVISIBLE può essere applicata anche a pareti in vetro già esistenti, non richiede l’uso di sapone come le comuni pellicole, quindi garantisce una semplice e rapida installazione."}
+  question16={""}
+  answer16={""}
+  question17={""}
+  answer17={""}
   question18={""}
   answer18={""}
 

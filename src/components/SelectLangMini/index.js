@@ -7,9 +7,26 @@ import styles from './selectlangmini.module.css'
 class SelectLangMini extends React.Component {
   constructor(props) {
     super(props)
+
+    this.state = {
+      currentPage: this.props.currentPage
+    }
 }
 
   render() {
+    console.log(this.props.currentPage)
+    let cssEng = ''
+    let cssIta = ''
+    if (this.state.currentPage === 'EN') {
+      cssEng = "underline"
+      cssIta = "none"
+    }
+    else {
+      cssEng = "none"
+      cssIta = "underline"
+    }
+    console.log("ita: ", cssIta)
+    console.log('eng: ', cssEng)
     return (
       <div className={styles.contenitorino}>
       <p className={styles.maintext}>
@@ -17,7 +34,7 @@ class SelectLangMini extends React.Component {
         to="/en/faq"
         style={{
           color: 'blue',
-          textDecoration: 'none',
+          textDecoration: cssEng,
           fontSize: '1.3rem'
         }}
         className={styles.langlinks}
@@ -29,7 +46,7 @@ class SelectLangMini extends React.Component {
         to="/it/faq"
         style={{
           color: 'blue',
-          textDecoration: 'none',
+          textDecoration: cssIta,
           fontSize: '1.3rem'
         }}
         className={styles.langlinks}
