@@ -22,8 +22,7 @@ class FrontPage extends React.Component {
   render() {
     return (
       <div className={styles.frontwrapper}>
-      <div className={styles.mobilebkg}>
-      </div>
+
       <video autoPlay muted loop className={styles.backgroundz}>
         <source src={videobkg} type={"video/mp4"} />
       </video>
