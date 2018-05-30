@@ -66,7 +66,7 @@ const IndexPage = () => (
 
     <DoveFourBoxes
       title1={"Offices"}
-      para1={"From confidential meetings to brainstorming sessions. Privacy is fundamental in both big and small companies. Invisible is the perfect solution for all these environments where it's important to manage privacy in an easy way"}
+      para1={"From confidential meetings to brainstorming sessions. Privacy is fundamental in both big and small companies. Invisible is the perfect solution for all these environments where it's important to manage privacy in an easy way."}
       title2={"Homes"}
       para2={"Invisible is a synonim of interior design because it is able to perfectly mix innovation, functionality and aestetics. Perfect for making glasses opaque and managing privacy at home, or simply to decorate rooms and separating them."}
       title3={"Stores"}
