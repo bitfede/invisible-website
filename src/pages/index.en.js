@@ -54,7 +54,7 @@ const IndexPage = () => (
       titolo1={"Invisible tecnology – can be installed on existing glasses and glass panels"}
       para1={"Invisible is a thin plastic film that can be applied on existing glass surfaces: you will not need to change the glass, the product can be applied directly on the existing surface"}
       titolo2={"Invisible glass – can be installed during the building phase"}
-      para2={"Invisible Glass is a glass layer with various thicknesses, thanks to a small elecric charge it can change state from opaque to completely transparent"}
+      para2={"Invisible Glass is a glass layer with various thicknesses, thanks to a small electric charge it can change state from opaque to completely transparent"}
 
     />
 
@@ -73,6 +73,8 @@ const IndexPage = () => (
       para3={"Invisible is the perfect solution for your store: it allows yout to keep separate environments, set up reserved rooms and surprise your customers with unexpected special effects, even on the storefront!"}
       title4={"Hotels"}
       para4={"On-demand privacy or transparency: Invisible  allows you to optically manage and optimize the space in your room creating separate environments and managing privacy with a click. Take advantage of the creative game of light and space, separating the bedroom from the bathroom with an Invisible-powered glass wall."}
+      tipmobile={"Touch the images to reveal more information"}
+      tipdeskt={"Move your mouse cursor over the images to reveal more information"}
     />
 
     <TitleAndSubtitle
@@ -85,8 +87,8 @@ const IndexPage = () => (
     title1={"PRIVACY"}
     subtitle1={"Manage your privacy with a click"}
     title2={"DESIGN"}
-    subtitle2={"Invisible is a high-end design product that combines aestetics with functionality"}
-    title3={"VIDEOPROIEZIONE"}
+    subtitle2={"Invisible is a high-end design product that combines aesthetics with functionality"}
+    title3={"VIDEOPROJECTION"}
     subtitle3={"Invisible's surface is well-suited for video projection"}
     />
 
@@ -106,7 +108,7 @@ const IndexPage = () => (
       title2={"INTEGRATION"}
       para2={"Our experience allowed us to develop a product that is able to integrate in simple ways with all the interfaces and internet-of-things solutions already present in many buildings and warehouses."}
       title3={"INNOVATION"}
-      para3={"Invisible means innovation because of its ability and to adapt everywhere and its ability to look amazing. It is truly a functional piece of technology that can go anywhere"}
+      para3={"Invisible means innovation because of its ability and to adapt everywhere and its ability to look amazing. It is truly a functional piece of technology that can go anywhere."}
     />
 
     <TitleAndSubtitle

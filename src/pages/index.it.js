@@ -75,6 +75,8 @@ const IndexPage = () => (
       para3={"Invisible è la soluzione perfetta per il tuo store: ti permette di separare gli ambienti, allestire aree riservate e stupire il tuo pubblico con effetti inaspettati anche in vetrina!"}
       title4={"Hotels"}
       para4={"Dalla trasparenza alla privacy su richiesta: Invisible  permette di gestire e ottimizzare otticamente lo spazio nella tua stanza creando ambienti separati e gestendo la privacy con un click. Approfitta del gioco creativo di luce e spazio, separando la camera da letto dal bagno tramite una parete divisoria con Invisible glass."}
+      tipmobile={"Tocca le immagini per vedere più informazioni"}
+      tipdeskt={"Posiziona il mouse sulle immagini per vedere più informazioni"}
     />
 
     <TitleAndSubtitle
@@ -104,7 +106,7 @@ const IndexPage = () => (
 
     <SezionePerche
       title1={"PROGETTAZIONE"}
-      para1={"Invisible ti permette di applicare la tecnologia di oscuramento a superfici già installate oppure di progettare ambienti di design da zero, rendendo la soluzione fruibile in ogni ambiente"}
+      para1={"Invisible ti permette di applicare la tecnologia di oscuramento a superfici già installate oppure di progettare ambienti di design da zero, rendendo la soluzione fruibile in ogni ambiente."}
       title2={"INTEGRAZIONE"}
       para2={"La nostra esperienza, ci ha permesso di sviluppare un prodotto capace di integrarsi in modo semplice con tutti gli strumenti di controllo e domotica già presenti nei Building e nelle aziende."}
       title3={"INNOVAZIONE"}

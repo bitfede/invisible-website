@@ -15,10 +15,10 @@ class DoveFourBoxes extends React.Component {
     return (
       <div>
         <Hidden lg xl>
-          <p className={styles.mobilesuggestion}>(Tocca le immagini per vedere più informazioni)</p>
+          <p className={styles.mobilesuggestion}>({this.props.tipmobile})</p>
         </Hidden>
         <Hidden xs sm md>
-          <p className={styles.mobilesuggestion}>(Posiziona il mouse sulle immagini per vedere più informazioni)</p>
+          <p className={styles.mobilesuggestion}>({this.props.tipdeskt})</p>
         </Hidden>
         <Container style={{marginTop: '5%', marginBottom: '10%'}}>
           <Row>
