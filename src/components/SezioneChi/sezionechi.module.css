@@ -6,6 +6,11 @@
 .maincontainer {
   padding-bottom: 5%;
   margin-bottom: 10%;
+  text-align: center;
+}
+
+.mainRow {
+  justify-content: center;
 }
 
 .maintitle {
@@ -32,6 +37,6 @@
 
 .icona {
   padding-top: 5%;
-  width: 50%;
+  width: 60%;
   fill: white
 }
